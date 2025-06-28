@@ -1,9 +1,9 @@
 public class TataElexis1DecimalNumber {
     public static void main(String[] args) {
         String str = "12476581.3245";
+        String[] str2  = str.split("\\.");
         StringBuilder str3 = new StringBuilder();
         StringBuilder str4 = new StringBuilder();
-        String[] str2  = str.split("\\.");
         for(int i = 0; i< str2.length-1;i++){
             char[] ch = str2[i].toCharArray();
             for(int j = 0 ; j< ch.length-1;j++){
