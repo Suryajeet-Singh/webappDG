@@ -17,6 +17,10 @@ public class numberCharacter {
                  break;
             }
         }
-        System.out.println("charc : "+list);
+        //System.out.println("charc : "+list);
+        for(char b:list)
+        {
+            System.out.print(b+" ");
+        }
     }
 }

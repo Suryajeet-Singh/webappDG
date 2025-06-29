@@ -12,7 +12,7 @@ public class SortingInAlphabeticalOrder {
                 }
             }
         }
-        System.out.println("Alphabetically Sorted : ");
+        System.out.println("Alphabetically Second_Largest_Tata_Elexis : ");
         for(char words : ch){
             System.out.print(words);
         }

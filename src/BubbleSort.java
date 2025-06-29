@@ -17,7 +17,7 @@ public class BubbleSort {
         }
     }
     public static void main(String[] args) {
-        int[] a = {65,65,87,87,56,34,25,15};
+        int[] a = {2,5,6,8,6,4,12,7,9};
         bubbleSort(a);
     }
 }
