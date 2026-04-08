@@ -4,7 +4,7 @@ public class CapSmall_Count {
     public static void main(String[] args) {
 
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Please enter the loda string....");
+        System.out.println("Please enter the string....");
         String str=scanner.nextLine();
         String str1=str.replaceAll(" ","");
 
